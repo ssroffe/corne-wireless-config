@@ -22,6 +22,11 @@
             key-positions = <36 37 38>;
             layers = <3>;
         };
+
+        delete {
+            bindings = <&kp DEL>;
+            key-positions = <10 11>;
+        };
     };
 
     keymap {
