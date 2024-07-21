@@ -54,11 +54,13 @@
         to_numpad {
             bindings = <&to 4>;
             key-positions = <39 40 41>;
+            layers = <0>;
         };
 
         np_to_base {
             bindings = <&to 0>;
             key-positions = <39 40 41>;
+            layers = <4>;
         };
     };
 
