@@ -139,10 +139,10 @@
         num_left {
             display-name = "num_left";
             bindings = <
-&kp TAB    &kp AMPS    &kp N7  &kp N8     &kp N9  &kp RBKT                 &kp MINUS  &kp N7  &kp N8    &kp N9  &kp EQUAL  &kp BSPC
-&kp BSLH   &kp DOLLAR  &kp N4  &kp N5     &kp N6  &kp RIGHT_PARENTHESIS    &kp PLUS   &kp N4  &kp N5    &kp N6  &kp STAR   &kp DOT
-&kp LSHFT  &kp N1      &kp N2  &kp N3     &kp N4  &kp N0                   &kp UNDER  &kp N1  &kp N2    &kp N3  &kp FSLH   &kp RCTRL
-                               &kp LCTRL  &trans  &kp SPACE                &kp RET    &kp N0  &kp RGUI
+&kp TAB   &kp AMPS    &kp N7  &kp N8     &kp N9  &kp RBKT                 &kp MINUS  &kp N7  &kp N8    &kp N9  &kp EQUAL  &kp BSPC
+&kp BSLH  &kp DOLLAR  &kp N4  &kp N5     &kp N6  &kp RIGHT_PARENTHESIS    &kp PLUS   &kp N4  &kp N5    &kp N6  &kp STAR   &kp DOT
+&kp N1    &kp N2      &kp N3  &kp N4     &kp N5  &kp N0                   &kp UNDER  &kp N1  &kp N2    &kp N3  &kp FSLH   &kp RCTRL
+                              &kp LCTRL  &trans  &kp SPACE                &kp RET    &kp N0  &kp RGUI
             >;
         };
     };
