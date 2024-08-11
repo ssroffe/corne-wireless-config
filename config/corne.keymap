@@ -62,6 +62,16 @@
             key-positions = <39 40 41>;
             layers = <3>;
         };
+
+        fd_esc {
+            bindings = <&kp ESC>;
+            key-positions = <16 15>;
+        };
+
+        jk_esc {
+            bindings = <&kp ESC>;
+            key-positions = <19 20>;
+        };
     };
 
     keymap {
