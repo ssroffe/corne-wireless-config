@@ -72,6 +72,16 @@
             bindings = <&kp ESC>;
             key-positions = <0 1>;
         };
+
+        tab_nav {
+            bindings = <&kp LC(TAB)>;
+            key-positions = <4 5>;
+        };
+
+        back_tab_nav {
+            bindings = <&kp LC(LS(TAB))>;
+            key-positions = <3 4>;
+        };
     };
 
     keymap {
