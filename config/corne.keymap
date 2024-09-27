@@ -96,10 +96,10 @@
 
             display-name = "Base";
             bindings = <
-&kp LCTRL  &kp Q       &kp W  &kp E        &kp R         &kp T            &kp Y        &kp U         &kp I        &kp O    &kp P          &kp ESC
-&kp TAB    &mt LGUI A  &kp S  &mt LCTRL D  &mt LSHIFT F  &kp G            &kp H        &mt RSHIFT J  &mt RCTRL K  &kp L    &mt RGUI SEMI  &kp SQT
-&kp LSHFT  &kp Z       &kp X  &kp C        &kp V         &kp B            &kp N        &kp M         &kp COMMA    &kp DOT  &kp FSLH       &caps_word
-                              &kp LALT     &mo 1         &kp BACKSPACE    &lt 5 ENTER  &kp SPACE     &kp RCTRL
+&kp LCTRL       &kp Q       &kp W  &kp E        &kp R         &kp T            &kp Y        &kp U         &kp I        &kp O    &kp P          &kp ESC
+&kp LEFT_SHIFT  &mt LGUI A  &kp S  &mt LCTRL D  &mt LSHIFT F  &kp G            &kp H        &mt RSHIFT J  &mt RCTRL K  &kp L    &mt RGUI SEMI  &kp SQT
+&kp TAB         &kp Z       &kp X  &kp C        &kp V         &kp B            &kp N        &kp M         &kp COMMA    &kp DOT  &kp FSLH       &caps_word
+                                   &kp LALT     &mo 1         &kp BACKSPACE    &lt 5 ENTER  &kp SPACE     &kp RCTRL
             >;
         };
 
@@ -112,18 +112,18 @@
 
             display-name = "numsym";
             bindings = <
-&kp TAB    &kp AMPS    &kp STAR     &kp GRAVE  &kp LBKT              &kp RBKT                 &kp MINUS  &kp N7  &kp N8    &kp N9  &kp EQUAL  &kp BSPC
-&kp BSLH   &kp DOLLAR  &kp PERCENT  &kp CARET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp PLUS   &kp N4  &kp N5    &kp N6  &kp STAR   &kp DOT
-&kp LSHFT  &kp EXCL    &kp AT       &kp POUND  &kp LEFT_BRACE        &kp RIGHT_BRACE          &kp UNDER  &kp N1  &kp N2    &kp N3  &kp FSLH   &kp RCTRL
-                                    &kp LCTRL  &trans                &kp SPACE                &kp RET    &kp N0  &kp RGUI
+&kp LEFT_SHIFT  &kp AMPS    &kp STAR     &kp GRAVE  &kp LBKT              &kp RBKT                 &kp MINUS  &kp N7  &kp N8    &kp N9  &kp EQUAL  &kp BSPC
+&kp BSLH        &kp DOLLAR  &kp PERCENT  &kp CARET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp PLUS   &kp N4  &kp N5    &kp N6  &kp STAR   &kp DOT
+&kp TAB         &kp EXCL    &kp AT       &kp POUND  &kp LEFT_BRACE        &kp RIGHT_BRACE          &kp UNDER  &kp N1  &kp N2    &kp N3  &kp FSLH   &kp RCTRL
+                                         &kp LCTRL  &trans                &kp SPACE                &kp RET    &kp N0  &kp RGUI
             >;
         };
 
         no_tap {
             bindings = <
 &kp ESC         &kp Q  &kp W  &kp E      &kp R     &kp T          &kp Y      &kp U  &kp I      &kp O    &kp P     &kp BACKSPACE
-&lt 4 TAB       &kp A  &kp S  &kp D      &kp F     &kp G          &kp H      &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
-&kp LEFT_SHIFT  &kp Z  &kp X  &kp C      &kp V     &kp B          &kp N      &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
+&kp LEFT_SHIFT  &kp A  &kp S  &kp D      &kp F     &kp G          &kp H      &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
+&lt 4 TAB       &kp Z  &kp X  &kp C      &kp V     &kp B          &kp N      &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
                               &kp LCTRL  &kp LALT  &lt 6 SPACE    &kp ENTER  &mo 5  &kp RGUI
             >;
 
@@ -133,10 +133,10 @@
         numpad {
             display-name = "numpad";
             bindings = <
-&kp TAB    &kp AMPS    &kp STAR     &kp GRAVE       &kp LBKT              &kp RBKT                 &kp MINUS  &kp KP_N7        &kp KP_N8  &kp KP_N9  &kp EQUAL  &kp BSPC
-&kp BSLH   &kp DOLLAR  &kp PERCENT  &kp CARET       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp PLUS   &kp KP_N4        &kp KP_N5  &kp KP_N6  &kp STAR   &kp DOT
-&kp LSHFT  &kp EXCL    &kp AT       &kp POUND       &kp LEFT_BRACE        &kp RIGHT_BRACE          &kp ENTER  &kp KP_N1        &kp KP_N2  &kp KP_N3  &kp FSLH   &kp RCTRL
-                                    &kp KP_NUMLOCK  &trans                &kp SPACE                &kp SPACE  &kp KP_NUMBER_0  &mo 5
+&kp LEFT_SHIFT  &kp AMPS    &kp STAR     &kp GRAVE       &kp LBKT              &kp RBKT                 &kp MINUS  &kp KP_N7        &kp KP_N8  &kp KP_N9  &kp EQUAL  &kp BSPC
+&kp BSLH        &kp DOLLAR  &kp PERCENT  &kp CARET       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp PLUS   &kp KP_N4        &kp KP_N5  &kp KP_N6  &kp STAR   &kp DOT
+&kp TAB         &kp EXCL    &kp AT       &kp POUND       &kp LEFT_BRACE        &kp RIGHT_BRACE          &kp ENTER  &kp KP_N1        &kp KP_N2  &kp KP_N3  &kp FSLH   &kp RCTRL
+                                         &kp KP_NUMLOCK  &trans                &kp SPACE                &kp SPACE  &kp KP_NUMBER_0  &mo 5
             >;
         };
 
@@ -159,10 +159,10 @@
 
             display-name = "navF";
             bindings = <
-&kp TAB    &kp F1   &kp F2   &kp F3        &kp F4        &kp F5          &kp PG_DN   &kp HOME          &kp LS(STAR)  &kp LS(LPAR)       &kp LS(RPAR)     &kp BSPC
-&kp LCTRL  &kp F6   &kp F7   &kp F8        &kp F9        &kp F10         &kp LEFT    &kp DOWN          &kp UP        &kp RIGHT          &kp END          &kp RCTRL
-&kp LSHFT  &kp F11  &kp F12  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2    &kp C_PREV  &kp C_PLAY_PAUSE  &kp C_NEXT    &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp LEFT_GUI
-                             &bt BT_CLR    &trans        &kp SPACE       &kp RET     &trans            &kp RGUI
+&kp LEFT_SHIFT  &kp F1   &kp F2   &kp F3        &kp F4        &kp F5          &kp PG_DN   &kp HOME          &kp LS(STAR)  &kp LS(LPAR)       &kp LS(RPAR)     &kp BSPC
+&kp LCTRL       &kp F6   &kp F7   &kp F8        &kp F9        &kp F10         &kp LEFT    &kp DOWN          &kp UP        &kp RIGHT          &kp END          &kp RCTRL
+&kp TAB         &kp F11  &kp F12  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2    &kp C_PREV  &kp C_PLAY_PAUSE  &kp C_NEXT    &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp LEFT_GUI
+                                  &bt BT_CLR    &trans        &kp SPACE       &kp RET     &trans            &kp RGUI
             >;
         };
 
@@ -171,8 +171,8 @@
             bindings = <
 &kp ESC    &kp Q     &kp UP    &kp ENTER  &kp PG_UP      &kp HOME    &none       &none             &none       &none              &none            &kp BSPC
 &kp SPACE  &kp LEFT  &kp DOWN  &kp RIGHT  &kp PAGE_DOWN  &kp END     &none       &none             &none       &none              &none            &kp RCTRL
-&kp LSHFT  &kp F1    &kp F2    &kp F3     &kp F4         &none       &kp C_PREV  &kp C_PLAY_PAUSE  &kp C_NEXT  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp LEFT_GUI
-                               &kp LCTRL  &kp LALT       &kp TAB     &kp RET     &trans            &kp RGUI
+&kp LSHFT  &kp F1    &kp F2    &kp F3     &kp F4         &kp TAB     &kp C_PREV  &kp C_PLAY_PAUSE  &kp C_NEXT  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp LEFT_GUI
+                               &kp LCTRL  &kp LALT       &none       &kp RET     &trans            &kp RGUI
             >;
         };
     };
