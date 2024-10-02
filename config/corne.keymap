@@ -97,8 +97,8 @@
             display-name = "Base";
             bindings = <
 &kp LCTRL       &kp Q       &kp W  &kp E        &kp R         &kp T            &kp Y        &kp U         &kp I        &kp O    &kp P          &kp ESC
-&kp LEFT_SHIFT  &mt LGUI A  &kp S  &mt LCTRL D  &mt LSHIFT F  &kp G            &kp H        &mt RSHIFT J  &mt RCTRL K  &kp L    &mt RGUI SEMI  &kp SQT
-&kp TAB         &kp Z       &kp X  &kp C        &kp V         &kp B            &kp N        &kp M         &kp COMMA    &kp DOT  &kp FSLH       &caps_word
+&kp TAB         &mt LGUI A  &kp S  &mt LCTRL D  &mt LSHIFT F  &kp G            &kp H        &mt RSHIFT J  &mt RCTRL K  &kp L    &mt RGUI SEMI  &kp SQT
+&kp LEFT_SHIFT  &kp Z       &kp X  &kp C        &kp V         &kp B            &kp N        &kp M         &kp COMMA    &kp DOT  &kp FSLH       &caps_word
                                    &kp LALT     &mo 1         &kp BACKSPACE    &lt 5 ENTER  &kp SPACE     &kp RCTRL
             >;
         };
