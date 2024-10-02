@@ -112,10 +112,10 @@
 
             display-name = "numsym";
             bindings = <
-&kp LEFT_SHIFT  &kp AMPS    &kp STAR     &kp GRAVE  &kp LBKT              &kp RBKT                 &kp MINUS  &kp N7  &kp N8    &kp N9  &kp EQUAL  &kp BSPC
-&kp BSLH        &kp DOLLAR  &kp PERCENT  &kp CARET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp PLUS   &kp N4  &kp N5    &kp N6  &kp STAR   &kp DOT
-&kp TAB         &kp EXCL    &kp AT       &kp POUND  &kp LEFT_BRACE        &kp RIGHT_BRACE          &kp UNDER  &kp N1  &kp N2    &kp N3  &kp FSLH   &kp RCTRL
-                                         &kp LCTRL  &trans                &kp SPACE                &kp RET    &kp N0  &kp RGUI
+&kp LEFT_SHIFT  &kp AMPS    &kp STAR     &kp GRAVE  &kp LBKT                         &kp RBKT                 &kp MINUS  &kp N7              &kp N8    &kp N9  &kp EQUAL  &kp BSPC
+&kp BSLH        &kp DOLLAR  &kp PERCENT  &kp CARET  &mt LEFT_SHIFT LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp PLUS   &mt RIGHT_SHIFT N4  &kp N5    &kp N6  &kp STAR   &kp DOT
+&kp TAB         &kp EXCL    &kp AT       &kp POUND  &kp LEFT_BRACE                   &kp RIGHT_BRACE          &kp UNDER  &kp N1              &kp N2    &kp N3  &kp FSLH   &kp RCTRL
+                                         &kp LCTRL  &trans                           &kp SPACE                &kp RET    &kp N0              &kp RGUI
             >;
         };
 
