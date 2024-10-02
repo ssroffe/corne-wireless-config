@@ -80,7 +80,7 @@
 
         back_tab_nav {
             bindings = <&kp LC(LS(TAB))>;
-            key-positions = <3 4>;
+            key-positions = <3 2>;
         };
     };
 
