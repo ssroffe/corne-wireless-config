@@ -22,10 +22,11 @@
         to_no_tap {
             bindings = <&to 2>;
             key-positions = <36 37 38>;
+            layers = <0>;
         };
 
         back_to_base {
-            bindings = <&to 1>;
+            bindings = <&to 0>;
             key-positions = <36 37 38>;
             layers = <2>;
         };
@@ -58,10 +59,11 @@
         to_numpad {
             bindings = <&to 3>;
             key-positions = <39 40 41>;
+            layers = <0>;
         };
 
         np_to_base {
-            bindings = <&to 1>;
+            bindings = <&to 0>;
             key-positions = <39 40 41>;
             layers = <3>;
         };
