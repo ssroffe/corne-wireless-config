@@ -96,10 +96,10 @@
 
             display-name = "Base";
             bindings = <
-&kp LCTRL       &kp Q       &kp W  &kp E        &kp R         &kp T            &kp Y        &kp U         &kp I        &kp O    &kp P          &kp ESC
-&kp TAB         &mt LGUI A  &kp S  &mt LCTRL D  &mt LSHIFT F  &kp G            &kp H        &mt RSHIFT J  &mt RCTRL K  &kp L    &mt RGUI SEMI  &kp SQT
-&kp LEFT_SHIFT  &kp Z       &kp X  &kp C        &kp V         &kp B            &kp N        &kp M         &kp COMMA    &kp DOT  &kp FSLH       &caps_word
-                                   &kp LALT     &mo 1         &kp BACKSPACE    &lt 5 ENTER  &lt 6 SPACE   &kp RCTRL
+&kp LCTRL       &kp Q  &kp W  &kp E        &kp R         &kp T            &kp Y        &kp U         &kp I        &kp O    &kp P          &kp ESC
+&lt 4 TAB       &kp A  &kp S  &mt LCTRL D  &mt LSHIFT F  &kp G            &kp H        &mt RSHIFT J  &mt RCTRL K  &kp L    &mt RGUI SEMI  &kp SQT
+&kp LEFT_SHIFT  &kp Z  &kp X  &kp C        &kp V         &kp B            &kp N        &kp M         &kp COMMA    &kp DOT  &kp FSLH       &caps_word
+                              &kp LALT     &mo 1         &kp BACKSPACE    &lt 5 ENTER  &lt 6 SPACE   &kp RCTRL
             >;
         };
 
@@ -143,10 +143,10 @@
         num_left {
             display-name = "num_left";
             bindings = <
-&kp LALT        &kp N7  &kp N8  &kp N9        &kp LALT   &kp RBKT         &kp MINUS  &kp N7  &kp N8    &kp N9  &kp EQUAL  &kp BSPC
+&kp LALT        &kp N7  &kp N8  &kp N9        &kp TAB    &kp RBKT         &kp MINUS  &kp N7  &kp N8    &kp N9  &kp EQUAL  &kp BSPC
 &kp LCTRL       &kp N4  &kp N5  &kp N6        &kp SPACE  &kp BACKSLASH    &kp PLUS   &kp N4  &kp N5    &kp N6  &kp STAR   &kp DOT
-&kp LEFT_SHIFT  &kp N1  &kp N2  &kp N3        &kp N0     &kp N0           &kp UNDER  &kp N1  &kp N2    &kp N3  &kp FSLH   &kp RCTRL
-                                &kp LEFT_ALT  &trans     &kp TAB          &kp RET    &kp N0  &kp RGUI
+&kp LEFT_SHIFT  &kp N1  &kp N2  &kp N3        &kp N0     &kp ENTER        &kp UNDER  &kp N1  &kp N2    &kp N3  &kp FSLH   &kp RCTRL
+                                &kp LEFT_ALT  &kp N0     &kp TAB          &kp RET    &kp N0  &kp RGUI
             >;
         };
 
